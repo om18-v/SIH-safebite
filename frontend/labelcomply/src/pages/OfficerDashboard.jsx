@@ -142,7 +142,7 @@ function OfficerDashboard({ officer, onLogout }) {
           </div>
 
           <button
-            onClick={onLogout}
+            onClick={() => navigate('/')}
             className="mt-4 w-full text-left text-sm text-gray-400 hover:text-red-400 transition"
           >
             ← Logout
